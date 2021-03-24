@@ -5,8 +5,8 @@
     // Define the schema
     myConnector.getSchema = function(schemaCallback) {
         var cols = [{
-            id: "content",
-            alias: "content",
+            id: "firstName",
+            alias: "firstName",
             dataType: tableau.dataTypeEnum.string
         },{
             id: "id",
@@ -83,7 +83,7 @@
                
                     tableData.push({
                     
-                        "content" : feat[j].content,
+                        "content" : feat[j].firstName,
                         "id": feat[j].id,
                         "requestType":feat[j].requestType,
                         "clientName":feat[j].clientName,
