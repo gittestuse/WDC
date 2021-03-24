@@ -77,7 +77,7 @@
                 tableData = [];
             
             // Iterate over the JSON object
-             for (var j = 0, len = feat.length; j < len; j++) { 
+             for (var j = 0, len = 1000; j < len; j++) { 
                 
 
                
