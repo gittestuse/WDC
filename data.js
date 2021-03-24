@@ -74,7 +74,7 @@
 
         $.getJSON("http://pp.a206032-oem-backend.edp-content-preprod.aws-int.thomsonreuters.com/api/ai/rest/v1/search/requests?pageSize=1000000", function(resp) {
             var feat = resp.raw_data,//countryVal = "India",
-                tableData = [];
+              var   tableData = [];
             
             // Iterate over the JSON object
              for (var j = 0, len = 1000; j < len; j++) { 
