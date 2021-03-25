@@ -72,7 +72,7 @@
           } 
         }); */
 
-        $.getJSON("http://pp.a206032-oem-backend.edp-content-preprod.aws-int.thomsonreuters.com/api/ai/rest/v1/search/requests?pageSize=1000000", function(resp) {
+        $.getJSON("http://pp.a206032-oem-backend.edp-content-preprod.aws-int.thomsonreuters.com/api/ai/rest/v1/search/requests?pageSize=10", function(resp) {
             var feat = resp.raw_data;//countryVal = "India",
             var  tableData = [];
             
